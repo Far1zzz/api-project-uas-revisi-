@@ -1,0 +1,35 @@
+{
+  "name": "api-project-uas-revisi-",
+  "version": "1.0.0",
+  "description": "revisi API project Akhir",
+  "main": "app.js",
+  "scripts": {
+    "farz-1": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Far1zzz/api-project-uas-revisi-.git"
+  },
+  "keywords": [
+    "nodeJs",
+    "express",
+    "mongoDb"
+  ],
+  "author": "Fariz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Far1zzz/api-project-uas-revisi-/issues"
+  },
+  "homepage": "https://github.com/Far1zzz/api-project-uas-revisi-#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20"
+  }
+}
