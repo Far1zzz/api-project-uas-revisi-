@@ -21,10 +21,12 @@ app.get("/", (req, res) => {
 // import routenya
 const routesToko = require("./routes/toko");
 const authRoutes = require("./routes/auth");
+const contactRoute = require("./routes/contact");
 
 // daftar Mildware ke express
 app.use("/admToko", routesToko);
 app.use("/auth", authRoutes);
+app.use("/contact", contactRoute);
 
 // koneksi kedatabase mongo
 mongoose.connect(process.env.DB_CONNECTION, {
