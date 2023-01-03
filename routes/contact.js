@@ -9,7 +9,7 @@ router.post("/", async (req, res) => {
   const contactPost = new dataContact({
     name: req.body.name,
     email: req.body.email,
-    message: req.body.message,
+    pesan: req.body.pesan,
   });
   try {
     const contact = await contactPost.save();
@@ -32,7 +32,7 @@ router.put("/contactId", async (req, res) => {
   const data = {
     name: req.body.name,
     email: req.body.email,
-    message: req.body.message,
+    pesan: req.body.pesan,
   };
   try {
     const contact = await dataContact.updateOne({

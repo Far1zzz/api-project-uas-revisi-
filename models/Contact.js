@@ -9,7 +9,7 @@ const contactSchema = mongoose.Schema({
     type: String,
     require: true,
   },
-  message: {
+  pesan: {
     type: String,
     require: true,
   },
